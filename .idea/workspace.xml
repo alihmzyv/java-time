@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc100b-684b-487e-be20-962e4a8a85b6" name="Changes" comment="practice Instant.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PaydayAdjuster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TemporalAdjusterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TemporalPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="33fc100b-684b-487e-be20-962e4a8a85b6" name="Changes" comment="practice temporal adjuster.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PeriodAndDuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TemporalQueryDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -41,24 +41,34 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alihmzyv/IdeaProjects/leetcode-dedicated&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/leetcode-dedicated",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.PaydayAdjusterTest">
-    <configuration name="InstantClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.InstantClass" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PeriodAndDuration">
+    <configuration name="PeriodAndDuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PeriodAndDuration" />
       <module name="java-time.main" />
       <extension name="coverage">
         <pattern>
@@ -96,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeZoneAndOffsetClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TimeZoneAndOffsetClasses" />
+    <configuration name="TemporalQueryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TemporalQueryDemo" />
       <module name="java-time.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.util.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PeriodAndDuration" />
+        <item itemvalue="Application.TemporalQueryDemo" />
         <item itemvalue="Gradle.PaydayAdjusterTest" />
         <item itemvalue="Application.TemporalAdjusterClass" />
         <item itemvalue="Application.TemporalPackage" />
-        <item itemvalue="Application.InstantClass" />
-        <item itemvalue="Application.TimeZoneAndOffsetClasses" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701590412957</updated>
       <workItem from="1701590414011" duration="15379000" />
-      <workItem from="1701632050011" duration="3569000" />
+      <workItem from="1701632050011" duration="7788000" />
     </task>
     <task id="LOCAL-00001" summary="study ZonedDateTime. study Daylight time saving - important points. Learn the correct way of conversions. Conversion between zoneddatetimes.">
       <option name="closed" value="true" />
@@ -170,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701610778483</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="practice temporal adjuster.">
+      <option name="closed" value="true" />
+      <created>1701635938035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701635938035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +198,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="study ZonedDateTime. study Daylight time saving - important points. Learn the correct way of conversions. Conversion between zoneddatetimes." />
     <MESSAGE value="practice Instant." />
-    <option name="LAST_COMMIT_MESSAGE" value="practice Instant." />
+    <MESSAGE value="practice temporal adjuster." />
+    <option name="LAST_COMMIT_MESSAGE" value="practice temporal adjuster." />
   </component>
 </project>
