@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc100b-684b-487e-be20-962e4a8a85b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DateAndTimeClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DateClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DayOfWeekAndMonthEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TimeZoneAndOffsetClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Util.java" afterDir="false" />
+    <list default="true" id="33fc100b-684b-487e-be20-962e4a8a85b6" name="Changes" comment="practice Instant.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PaydayAdjuster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TemporalAdjusterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TemporalPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2Z1X9nS6Hd1anh8CFj78BJwhNti" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,22 +41,24 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alihmzyv/IdeaProjects/leetcode-dedicated&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TimeZoneAndOffsetClasses">
-    <configuration name="DateAndTimeClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DateAndTimeClasses" />
+}</component>
+  <component name="RunManager" selected="Gradle.PaydayAdjusterTest">
+    <configuration name="InstantClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.InstantClass" />
       <module name="java-time.main" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DateClasses" />
+    <configuration name="TemporalAdjusterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TemporalAdjusterClass" />
       <module name="java-time.main" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DayOfWeekAndMonthEnums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DayOfWeekAndMonthEnums" />
+    <configuration name="TemporalPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TemporalPackage" />
       <module name="java-time.main" />
       <extension name="coverage">
         <pattern>
@@ -111,7 +101,7 @@
       <module name="java-time.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +109,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaydayAdjusterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.PaydayAdjusterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PaydayAdjusterTest" />
+        <item itemvalue="Application.TemporalAdjusterClass" />
+        <item itemvalue="Application.TemporalPackage" />
+        <item itemvalue="Application.InstantClass" />
         <item itemvalue="Application.TimeZoneAndOffsetClasses" />
-        <item itemvalue="Application.DateAndTimeClasses" />
-        <item itemvalue="Application.DateClasses" />
-        <item itemvalue="Application.DayOfWeekAndMonthEnums" />
       </list>
     </recent_temporary>
   </component>
@@ -136,8 +151,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701590412957</updated>
-      <workItem from="1701590414011" duration="13392000" />
+      <workItem from="1701590414011" duration="15379000" />
+      <workItem from="1701632050011" duration="3569000" />
     </task>
+    <task id="LOCAL-00001" summary="study ZonedDateTime. study Daylight time saving - important points. Learn the correct way of conversions. Conversion between zoneddatetimes.">
+      <option name="closed" value="true" />
+      <created>1701608658710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701608658710</updated>
+    </task>
+    <task id="LOCAL-00002" summary="practice Instant.">
+      <option name="closed" value="true" />
+      <created>1701610778483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701610778483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,5 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="study ZonedDateTime. study Daylight time saving - important points. Learn the correct way of conversions. Conversion between zoneddatetimes." />
+    <MESSAGE value="practice Instant." />
+    <option name="LAST_COMMIT_MESSAGE" value="practice Instant." />
   </component>
 </project>
