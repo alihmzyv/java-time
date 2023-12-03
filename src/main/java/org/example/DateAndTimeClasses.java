@@ -2,10 +2,9 @@ package org.example;
 
 import java.time.Instant;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.time.ZoneId;
 
-import static org.example.Util.print;
+import static org.example.util.Util.print;
 
 public class DateAndTimeClasses {
     public static void main(String[] args) {

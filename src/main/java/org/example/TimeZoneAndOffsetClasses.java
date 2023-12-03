@@ -1,10 +1,8 @@
 package org.example;
 
 import java.time.*;
-import java.time.format.TextStyle;
-import java.util.Locale;
 
-import static org.example.Util.print;
+import static org.example.util.Util.print;
 
 public class TimeZoneAndOffsetClasses {
     public static void main(String[] args) {

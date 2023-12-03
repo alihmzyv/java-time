@@ -1,17 +1,12 @@
 package org.example;
 
-import org.w3c.dom.Text;
-
 import java.time.*;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeFormatterBuilder;
 import java.time.format.TextStyle;
-import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 import java.util.Locale;
 
 import static org.example.Constants.AZ_LOCALE;
-import static org.example.Util.print;
+import static org.example.util.Util.print;
 
 public class DateClasses {
     public static void main(String[] args) {
